@@ -1,71 +1,21 @@
-# taskreminder README
+# TaskReminder
 
-This is the README for your extension "taskreminder". After writing up a brief description, we recommend including the following sections.
+L'extension TaskReminder est conçue pour aider les développeurs à se rappeler des tâches importantes et des échéances directement depuis leur environnement de développement.
 
-## Features
+## Caractéristiques clés :
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+**Création de tâches :** Les utilisateurs peuvent créer des tâches avec des descriptions courtes et des dates d'échéance.
 
-For example if there is an image subfolder under your extension project workspace:
+**Notifications :** L'extension envoie des notifications dans VSCode pour rappeler aux utilisateurs des tâches à accomplir. Ces notifications peuvent être personnalisées en fonction des préférences de l'utilisateur.
 
-\!\[feature X\]\(images/feature-x.png\)
+**Liste de tâches :** Affichez une liste des tâches en attente directement dans VSCode. Les tâches peuvent être marquées comme complètes lorsque l'utilisateur les termine.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+**Priorités :** Les utilisateurs peuvent attribuer des priorités aux tâches pour indiquer leur importance.
 
-## Requirements
+**Marquage de code lié aux tâches :** Offrez la possibilité de marquer du code source lié à une tâche pour une meilleure traçabilité.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+**Personnalisation :** Permettez aux utilisateurs de personnaliser le format des rappels et des notifications en fonction de leurs préférences.
 
-## Extension Settings
+**Synchronisation simple :** Les données de tâches peuvent être exportées ou sauvegardées localement pour une utilisation future.
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Cette extension permet d'aider les développeurs à ne pas oublier leurs tâches importantes et à rester organisés directement depuis VSCode.

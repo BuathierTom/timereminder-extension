@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "taskreminder.helloWorld",
-        "title": "Hello World"
+        "command": "task-reminder.showTasks",
+        "title": "Task Reminder: Show Tasks"
       }
     ]
   },
