@@ -1,21 +1,33 @@
-# TaskReminder
+# Extension VSCode
 
-L'extension TaskReminder est conçue pour aider les développeurs à se rappeler des tâches importantes et des échéances directement depuis leur environnement de développement.
+## Extension développée (TimeReminder)
 
-## Caractéristiques clés :
+J'ai développé une petite extension VSCode qui s'appelle **timeReminder**. Cette extension permet à l'utilisateur lorsqu'il tape la commande `startTimer` de lancer un timer de 30 minutes et qui lui met une notification lorsque les 30 minutes sont écoulées qui demande à l'utilisateur s'il est encore sur son code. 
 
-**Création de tâches :** Les utilisateurs peuvent créer des tâches avec des descriptions courtes et des dates d'échéance.
+Il a alors le choix entre Oui ou Non, si il choisit :
 
-**Notifications :** L'extension envoie des notifications dans VSCode pour rappeler aux utilisateurs des tâches à accomplir. Ces notifications peuvent être personnalisées en fonction des préférences de l'utilisateur.
+- **Non**: alors VSCode se ferme
+- **Oui**: alors la notification reviendra dans 30 minutes
+- **Pas de réponse**: alors VSCode se fermera automatiquement au bout de 5 minutes
 
-**Liste de tâches :** Affichez une liste des tâches en attente directement dans VSCode. Les tâches peuvent être marquées comme complètes lorsque l'utilisateur les termine.
+Vous avez aussi la possibilité de reset du timer quand il est lancer pour revenir à 0 grace à la commande `resetTimer`.
 
-**Priorités :** Les utilisateurs peuvent attribuer des priorités aux tâches pour indiquer leur importance.
 
-**Marquage de code lié aux tâches :** Offrez la possibilité de marquer du code source lié à une tâche pour une meilleure traçabilité.
+## **!!!** Important :
 
-**Personnalisation :** Permettez aux utilisateurs de personnaliser le format des rappels et des notifications en fonction de leurs préférences.
+Pour que vous puissiez tester rapidement j'ai mis le temps d'attente pour la notification dans le programme à 2 minutes (lors de l'utilisation de la commande `startTimer`).
 
-**Synchronisation simple :** Les données de tâches peuvent être exportées ou sauvegardées localement pour une utilisation future.
+## Extension plus poussée (TaskReminder)
 
-Cette extension permet d'aider les développeurs à ne pas oublier leurs tâches importantes et à rester organisés directement depuis VSCode.
+À la base je voulais faire une extension qui permet de créer des listes de tâches à faire directement dans VS Code. Cette extension aurait pu permettre :
+- l'ajout de taches (avec des dates d'échéance); 
+- La modification de la tâche (objet / date);
+- La suppression de la tâche;
+- Des notifications de rappel lorsque la date arrive à échéance
+- Une fenêtre avec une liste de toutes les tâches créées
+
+J'avais déjà pensé à ça mais j'ai rapidement vu que c'était très compliqué. Mais cette idée peut aller encore plus loin par exemple avec une personnalisation des notifications reçues, un sens de priorités dans les tâches ou même un système de marquage lié au code.
+
+# Auteur
+
+- Buathier Tom TP2 FI

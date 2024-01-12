@@ -1,7 +1,7 @@
 {
-  "name": "taskreminder",
-  "displayName": "TaskReminder",
-  "description": " L'extension TaskReminder est conçue pour aider les développeurs à se rappeler des tâches importantes et des échéances directement depuis leur environnement de développement.",
+  "name": "timereminder",
+  "displayName": "timereminder",
+  "description": "",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.83.0"
@@ -14,8 +14,12 @@
   "contributes": {
     "commands": [
       {
-        "command": "task-reminder.showTasks",
-        "title": "Task Reminder: Show Tasks"
+        "command": "timereminder.resetTimer",
+        "title": "resetTimer"
+      },
+      {
+        "command": "timereminder.start",
+        "title": "startTimer"
       }
     ]
   },
